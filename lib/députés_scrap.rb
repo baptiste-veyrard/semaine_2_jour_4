@@ -8,9 +8,6 @@
 		return $doc
 	end
 
-
-
-
 	def emails_députés
 		array_emails = []
 		$doc.xpath("//tr/td[3]/p/span/a").each do |email|
@@ -62,6 +59,4 @@
 
 	connexion_page
 	perform
-#	email_to_last_name(["john.smith@gmail.com", "isabella.cari@outlook.fr", "roger.tuile@yahoo.com"])
-
 

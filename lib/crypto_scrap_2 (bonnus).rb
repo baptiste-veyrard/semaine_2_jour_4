@@ -34,6 +34,7 @@
 			puts hash_each
 		end
 		puts array_finale.inspect
+		return array_finale
 	end
 
 

@@ -1,0 +1,1 @@
+require_relative '../lib/crypto_scrap_1'

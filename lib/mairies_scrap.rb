@@ -13,8 +13,6 @@
 
 	def get_townhall_email
 		email_marie_albeiges = $doc.xpath("/html/body/div/main/section[2]/div/table/tbody/tr[4]/td[2]")
-		puts email_marie_albeiges.text
-
 	end
 
 
@@ -39,6 +37,7 @@
 			array_finale << {array_maries[index] => array_url[index]}
 		end  
 		puts array_finale.inspect
+		return array_finale
 	end
 
 
